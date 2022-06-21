@@ -49,7 +49,7 @@
 
 
 <p>不知不觉中大三就结束了，在考试复习周发现了这个Blog模板，遂创建了”Aolog”。</p>
-<p>自觉难以胜任实习、还有不久到来的秋招、以及刚刚结束的我不太喜欢的两门“文科”考试。我人生中(极有可能的)最后一个暑假就这么开始了……</p>
+<p>自觉难以胜任的实习、不久到来的秋招、以及刚刚结束的我不太喜欢的两门“文科”考试。我人生中(极有可能的)最后一个暑假就这么开始了……</p>
 <p>2022.6.21</p>
 
 
@@ -77,5 +77,20 @@
 
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
