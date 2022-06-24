@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Hello World</title>
+	<title>一切的开始</title>
 	<meta name="keywords" content="" />
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -34,7 +34,7 @@
 <body>
 
 
-<h2 class="title">Hello World</h2>
+<h2 class="title">一切的开始</h2>
 <!--
 <div style="text-align:center;margin-top: -10px;">
 <div class="article-category">
@@ -53,7 +53,7 @@
 <p>2022.6.21</p>
 
 
-<!--<a href="http://example.com/2022/06/21/HelloWorld/#disqus_thread" class="article-comment-link">Comments</a>
+<!--<a href="http://example.com/2022/06/21/%E4%B8%80%E5%88%87%E7%9A%84%E5%BC%80%E5%A7%8B/#disqus_thread" class="article-comment-link">Comments</a>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -77,5 +77,20 @@
 
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
